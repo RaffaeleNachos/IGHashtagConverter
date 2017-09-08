@@ -75,6 +75,7 @@ void del_hashtag(char **a, char *b)
         for(k=1; a[j][k]!=0; k++){
             printf("%c", a[j][k]);
         }
+		printf(" ");
     }
     printf("\n");
 }
@@ -91,9 +92,9 @@ int main ()
     int scelta;
     char **a;
     char *b="stop";
-    a=malloc(1000*sizeof(char*));
-    for(i=0; i<1000; i++){
-        a[i]=malloc(1001*sizeof(char));
+    a=malloc(201*sizeof(char*));
+    for(i=0; i<201; i++){
+        a[i]=malloc(101*sizeof(char));
     }
     printf("* Insert 1 for adding the hashtag '#' before every word (useful for posting on instagram)                     *\n");
     printf("* Insert 2 for getting your hashtag ready for instabot (insert them without the hashtag, use firstly mode 3!) *\n");
