@@ -4,7 +4,7 @@ Its work is to write hashtags in correct format for LevPasha Python instagram bo
 (https://github.com/instabot-py/instabot.py)
 MAX 200 tags at a time. (by the way you can change them in the code if you want)
 
-# Versions
+## Versions
 * v1.0 Working but in italian
-* v1.1 Full translate in english
+* v1.1 Full translate to english
 * v1.2 Added top 20 hashtags and multiple choice for instabot format
