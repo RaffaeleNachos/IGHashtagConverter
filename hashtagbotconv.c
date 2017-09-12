@@ -97,7 +97,7 @@ int main ()
         a[i]=malloc(101*sizeof(char));
     }
     printf("* Insert 1 for adding the hashtag '#' before every word (useful for posting on instagram)                     *\n");
-    printf("* Insert 2 for getting your hashtag ready for instabot (insert them without the hashtag, use firstly mode 3!) *\n");
+    printf("* Insert 2 for getting your hashtag ready for instabot                                                        *\n");
     printf("* Insert 3 for printing the hashtags without the '#'                                                          *\n");
 	printf("* Insert 4 for printing the best 20 hashtags out there! (they are ready for instabot)                         *\n");
     scanf("%d", &scelta);
